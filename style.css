@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1.4;
+    font-weight: 300px;
+}
+.bg-img{
+    background-image: url(images/hero_img.jpeg);
+    min-height: 100vh;
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg-text{
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 16px;
+}
+.lg-txt{
+    font-size: 72px;
+    font-weight: 400px;
+}
+
+/* MAIN SECTION */
+.para{
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+    height: 70px;
+    font-size: 42px;
+    text-align: center;
+    padding: 15px;
+    padding-top: 5px;
+    font-weight: 300px;
+   
+}
+
+.you{
+    font-weight: 400px;
+    font-size: 53px;
+    color: white;
+}
+/* CARDS / BOXS */
+
+.box{
+    background-color:#ccc;
+    border-color: 2px solid red;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.boxs{
+    background-color: white;
+    height: 300px;
+    width:300px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 14px; 
+    box-shadow: 3px 5px 5px rgba(1, 1,1,0.2);
+    display: block;
+    transition: 3s ease-in-out;
+}
+.boxs:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 5px 5px rgba(1, 1,1,0.3);
+}
+/* inside box (content) */
+.head{
+    text-align: center;
+}
+.images{
+
+    margin-left: 50px;
+    padding-left: 10px;
+}
+
+/* INFO SECTION => CONTACT, ABOUT ME */
+.info{
+    display: flex;  
+    font-size: medium; 
+}
+.contact{
+    border: 1px solid transparent;
+    color: white;
+    background-color:green;
+    width: 50%;
+    height: 150px;
+    padding-left: 7px;
+}
+
+.aboutme{
+    background-color: brown;
+    border:1px solid transparent;
+    color: white;
+    width: 50%;
+    height: 150px;
+    padding-left: 5px;
+}
+/* FOOTER SECTION */
+.footer-sec{
+    background-color:black;
+    color: white;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+.details{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
